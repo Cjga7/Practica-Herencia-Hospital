@@ -9,8 +9,9 @@ public class Main {
         Medico medico8= new Medico("787","saul","mol","Con","45","14/45/7","odontologia","Cochabamba");
         Servicio servicio = new Servicio("od","odontologia",17,"bueno",hospitales);
         Hospital hospital = new Hospital("45","Cochabamba",oruro,778747,servicios,medico8);
-        Paciente paciente= new Paciente("78","carl","hul","almn","7854","78/sep/441","1234");
+        Paciente paciente= new Paciente("arr","carl","hul","almn","7854","78/sep/441","1234");
         System.out.println(hospital.toString());
+        System.out.println(medico8.toString());
 
     }
 }
